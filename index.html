@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My Calculator</title>
+    <link rel="stylesheet" href="a.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <p><a href="https://www.desmos.com/scientific" target="_blank">參考網路上面的計算機</a></p>
+    <div class="calcu">
+        <div class="screen">
+            <button onclick="cleanClick('ac')" class="btn btn-outline-dark">AC</button>
+            <div id="result"></div>
+        </div>
+
+        <div class="calcubtn">
+            <button onclick="numClick('7')" class="btn btn-outline-primary">7</button>
+            <button onclick="numClick('8')" class="btn btn-outline-primary">8</button>
+            <button onclick="numClick('9')" class="btn btn-outline-primary">9</button>
+            <button onclick="operatorClick('/')" class="btn btn-outline-info">÷</button>
+
+            <br>
+            <button onclick="numClick('4')" class="btn btn-outline-primary">4</button>
+            <button onclick="numClick('5')" class="btn btn-outline-primary">5</button>
+            <button onclick="numClick('6')" class="btn btn-outline-primary">6</button>
+            <button onclick="operatorClick('*')" class="btn btn-outline-info">×</button>
+
+            <br>
+            <button onclick="numClick('1')" class="btn btn-outline-primary">1</button>
+            <button onclick="numClick('2')" class="btn btn-outline-primary">2</button>
+            <button onclick="numClick('3')" class="btn btn-outline-primary">3</button>
+            <button onclick="operatorClick('-')" class="btn btn-outline-info">-</button>
+
+            <br>
+            <button onclick="numClick('0')" class="btn btn-outline-primary">0</button>
+            <button onclick="numClick('.')" class="btn btn-outline-primary">.</button>
+            <button onclick="answer()" class="btn btn-outline-info">=</button>
+            <button onclick="operatorClick('+')" class="btn btn-outline-info">+</button>
+
+        </div>
+    </div>
+
+    <script type="text/javascript" src="b.js"></script>
+
+</body>
+
+</html>

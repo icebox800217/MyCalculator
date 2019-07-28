@@ -1,0 +1,39 @@
+.calcu {
+    background-color: rgb(241, 222, 181);
+    box-shadow: 4px 4px #85623a;
+    border-radius: 20px 20px;
+    margin: auto;
+    width: 400px;
+    height: 420px;
+}
+
+.screen {
+    display: inline-block;
+    padding-left: 20px;
+    width: 400px;
+    height: 100px;
+}
+
+#result {
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    bottom: 20px;
+    border: 5px solid rgba(236, 158, 39, 0.822);
+    width: 240px;
+    background-color: rgb(165, 252, 255);
+    height: 80px;
+    font-size: 50px;
+}
+
+.calcubtn {
+    position: relative;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.btn {
+    width: 80px;
+    height: 60px;
+    margin: 3px;
+}
